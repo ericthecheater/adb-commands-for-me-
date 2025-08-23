@@ -1,0 +1,13 @@
+adb shell "setprop debug.oculus.refreshRate 90 && setprop debug.oculus.capture.width 1080 && setprop debug.oculus.capture.height 720 && setprop debug.oculus.fps 5 && setprop debug.oculus.swapInterval 4 && setprop debug.oculus.eyeFovDown 50 && setprop debug.oculus.eyeFovUp 50 && setprop debug.oculus.eyeFovInward 50 && setprop debug.oculus.eyeFovOutward 50 && setprop debug.oculus.PhaseSync 1 && setprop debug.oculus.PhaseSyncAdditionalPadding 100 && setprop debug.oculus.PhaseSyncDelayOverride 100 && setprop debug.oculus.PhaseSyncPredictionTime 160 && setprop debug.oculus.PredictionTime 120 && setprop debug.oculus.rightHandSurfaceOverride.extraVelMaxMultiplier 2.7 && setprop debug.oculus.textureHeight 6120 && setprop debug.oculus.texturewidth 4096 && setprop debug.oculus.Average.TrackingRange 500"
+adb shell setprop debug.oculus.swapInterval 5
+adb shell setprop debug.oculus.PhaseSyncAdditionalPadding 100
+adb shell setprop debug.oculus.PhaseSyncDelayOverride 100
+adb shell setprop debug.oculus.PhaseSyncPredictionTime 160
+adb shell setprop debug.oculus.refreshRate 100
+adb shell setprop debug.oculus.PhaseSync 1
+adb shell setprop debug.oculus.swapInterval 5
+adb shell setprop debug.oculus.PredictionTime 120
+adb shell setprop debug.oculus.rightHandSurfaceOverride.extraVelMaxMultiplier 2.7
+adb shell setprop debug.oculus.textureHeight 6120
+adb shell setprop debug.oculus.texturewidth 4096
+adb shell setprop debug.oculus.Average.TrackingRange 500
