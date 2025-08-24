@@ -1,0 +1,5 @@
+max resolution on sidequest max recording sets foveation turned off 60hz adb shell setprop debug.oculus.swapInterval 2
+ headset power level on level 2
+ record while u boot up gtag and spam open and close oculus menu 5 times very fast
+give or take 5 - 8 times
+dont spam too much as it may crash ur headset
